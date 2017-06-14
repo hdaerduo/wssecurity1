@@ -36,7 +36,7 @@ public class UserService {
 	public User findByEmail(String email) {
 		synchronized (users) {
 			for (User user : users) {
-				if (user.getEmail() == email) {
+				if (user.getEmail().equals(email)) {
 					return user;
 				}
 			}

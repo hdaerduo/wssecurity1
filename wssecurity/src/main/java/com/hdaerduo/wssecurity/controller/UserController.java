@@ -28,12 +28,19 @@ public class UserController {
 	@RequestMapping(value = "/register", method = RequestMethod.POST)
 	public User registerUser(@RequestBody User user) {
 		return userService.save(user);
+		//test data:
+//		{
+//			"userId":10,
+//			"firstName": "huang",
+//			"lastName": "tingmou",
+//		     "email": "hdaerduo@gmail.com"
+//		}
 	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.POST)
 	public String login(@RequestBody User login) throws ServletException {
 
-		String jwtToken = "";
+		String jwtToken = ""; 	
 
 		if (login.getEmail() == null || login.getPassword() == null) {
 			throw new ServletException("Please fill in username and password");
