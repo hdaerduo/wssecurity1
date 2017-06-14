@@ -31,8 +31,8 @@ public class UserController {
 		//test data:
 //		{
 //			"userId":10,
-//			"firstName": "huang",
-//			"lastName": "tingmou",
+//			"firstName": "liu",
+//			"lastName": "bangbang",
 //		     "email": "hdaerduo@gmail.com"
 //		}
 	}
