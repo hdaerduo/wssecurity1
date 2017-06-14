@@ -18,9 +18,9 @@ Rest Client
 Body: application/json; charset=UTF-8. 
 {
 			"userId":10,
-			"firstName": "huang",
-			"lastName": "tingmou",
-		     "email": "hdaerduo@gmail.com"
+			"firstName": "liu",
+			"lastName": "bangbang",
+		     "email": "gdfddfd@gmail.com"
 }
 
 2. sent POST message to server:
