@@ -33,7 +33,7 @@ public class UserController {
 //			"userId":10,
 //			"firstName": "liu",
 //			"lastName": "bangbang",
-//		     "email": "hdaerduo@gmail.com"
+//		     "email": "xxxxx@gmail.com"
 //		}
 	}
 
