@@ -17,6 +17,7 @@ public class WssecurityApplication {
 		final FilterRegistrationBean registrationBean = new FilterRegistrationBean();
 		registrationBean.setFilter(new JwtFilter());
 		registrationBean.addUrlPatterns("/secure/*");
+		registrationBean.addUrlPatterns("/websocket");
 
 		return registrationBean;
 	}
