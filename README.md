@@ -1,5 +1,12 @@
 # wssecurity1
 
+This project is used to demo the websocket, using the jwt tocken to control the user login, using the SSL to encript the communication.
+
+Client used to test this server.
+
+https://github.com/hdaerduo/wssecurityclient
+
+
 refer:
 
 https://github.com/aboullaite/spring-boot-jwt
@@ -36,5 +43,19 @@ http://localhost:8080/secure/user/users
 Auth: Bearer Token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoZGFlcmR1b0BnbWFpbC5jb20iLCJyb2xlcyI6InVzZXIiLCJpYXQiOjE0OTc0NTIxMDR9.YB1qLHUvlIROlVs1lu7WVoOHMt8JhQeNL0JkYjtecFc
 
 return OK.
+
+
+## CA and SSL
+
+数字证书原理:
+
+http://www.cnblogs.com/JeffreySun/archive/2010/06/24/1627247.html
+
+* 密钥实体： 公钥、私钥
+
+* 证书： 用来分发公钥。
+
+
+
 
 
